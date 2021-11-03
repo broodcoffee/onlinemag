@@ -236,13 +236,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     width: 150px;
     height: auto;
     padding: 10px;
-    float: left;
 }
 #discordgrp {
     width: 150px;
     height: auto;
     padding: 10px;
-    float: right;
 }
 /* Carousel base class */
 #carouselExampleIndicators {
@@ -251,6 +249,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+    color: black;
 }
 .carousel-inner > img {
     position: absolute;
